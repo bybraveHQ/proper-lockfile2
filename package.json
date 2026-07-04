@@ -1,0 +1,57 @@
+{
+  "name": "@bybrave/proper-lockfile2",
+  "version": "5.0.0",
+  "description": "Maintained fork of proper-lockfile — an inter-process and inter-machine lockfile utility that works on a local or network file system",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest --env node --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bybraveHQ/proper-lockfile2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bybraveHQ/proper-lockfile2/issues"
+  },
+  "homepage": "https://github.com/bybraveHQ/proper-lockfile2#readme",
+  "keywords": [
+    "lock",
+    "lockfile",
+    "locker",
+    "mutex",
+    "flock",
+    "proper-lockfile",
+    "stale",
+    "typescript"
+  ],
+  "author": "bybrave (https://github.com/bybraveHQ)",
+  "contributors": [
+    "André Cruz <andre@moxy.studio> (author of the original proper-lockfile)"
+  ],
+  "license": "MIT",
+  "funding": "https://ko-fi.com/bybrave",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.11",
+    "retry": "^0.13.1",
+    "signal-exit": "^3.0.7"
+  },
+  "devDependencies": {
+    "@segment/clear-timeouts": "^2.0.0",
+    "delay": "^5.0.0",
+    "execa": "^5.1.1",
+    "jest": "^29.7.0",
+    "mkdirp": "^1.0.4",
+    "p-defer": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "thread-sleep": "^2.2.0"
+  }
+}
